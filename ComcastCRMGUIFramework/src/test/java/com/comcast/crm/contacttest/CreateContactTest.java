@@ -21,7 +21,7 @@ public class CreateContactTest {
 	public static void main(String[] args) throws Throwable {
 
 		/* Create Object */
-		
+		System.out.println("Pass");
 		FileUtility fLib = new FileUtility();
 		ExcelUtility elib = new ExcelUtility();
 		JavaUtility jLib = new JavaUtility();
