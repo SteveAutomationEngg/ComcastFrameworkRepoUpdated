@@ -7,7 +7,7 @@ import com.aventstack.extentreports.ExtentTest;
 public class UtilityClassObject {
 	
 	/* ******************READ ONCE****************
-	 * We made this class to create threads of those static Object are not allowed in parallel execution 
+	 * We made this class to create threads of those static Object which are not allowed in parallel execution 
 	 */
 	
 	/*
@@ -21,7 +21,7 @@ public class UtilityClassObject {
 	   */
 	
 	
-	//creating threads of static object
+	//creating threads of static object 
 	public static ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
 	public static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 	
@@ -52,3 +52,4 @@ public class UtilityClassObject {
 	
 
 }
+ 
