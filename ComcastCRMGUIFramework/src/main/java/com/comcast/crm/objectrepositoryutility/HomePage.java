@@ -68,8 +68,6 @@ public class HomePage {
 	}
 	
 	
-
-
 	public WebElement getProductsLink() {
 		return productsLink;
 	}
