@@ -23,6 +23,9 @@ public class HomePage {
 	@FindBy(linkText = "More")
 	private WebElement moreLink;
 	
+	@FindBy(linkText = "Products")                        //Automation Lead added it for GitHub
+	private WebElement productsLink;
+	
 	@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
 	private WebElement adminImg;
 	
@@ -62,6 +65,13 @@ public class HomePage {
 
 	public WebElement getSignOutLink() {
 		return signOutLink;
+	}
+	
+	
+
+
+	public WebElement getProductsLink() {
+		return productsLink;
 	}
 
 
