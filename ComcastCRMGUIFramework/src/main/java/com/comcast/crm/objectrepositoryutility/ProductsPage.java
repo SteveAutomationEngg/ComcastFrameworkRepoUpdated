@@ -9,7 +9,12 @@ public class ProductsPage {
 	private WebElement createProductBtn;
 	
 	
+	
 	@FindBy(name = "searchBtn")
 	private WebElement element2;                                //sam added
+	
+	@FindBy(name = "searchbtn")
+	private WebElement element3;       //steve added
+
 
 }
