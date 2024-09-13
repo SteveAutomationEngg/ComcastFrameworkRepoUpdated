@@ -9,6 +9,6 @@ public class ProductsPage {
 	private WebElement createProductBtn;
 	
 	@FindBy(name = "searchbtn")
-	private WebElement element3;
+	private WebElement element3;       //steve added
 
 }
