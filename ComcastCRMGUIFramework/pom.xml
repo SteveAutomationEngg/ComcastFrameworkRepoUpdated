@@ -5,6 +5,12 @@
 	<groupId>com.Tekpyramid.ComcastCRMGUIFramework</groupId>
 	<artifactId>ComcastCRMGUIFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+<properties>
+	<maven.complier.target>1.8</maven.complier.target>
+	<maven.complier.source>1.8</maven.complier.source>
+</properties>
+
 
 	<dependencies>
 		<!--
@@ -68,7 +74,7 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.1.1</version>
 		</dependency>
-
+		
 
 	</dependencies>
 
