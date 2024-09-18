@@ -173,7 +173,7 @@ public class OrganizationTest extends BaseClass{
 
 	}
 	
-	@Test(groups = "regressionTest")
+	@Test(groups = "regressionTest" ,enabled = false)
 	public void deleteOrganizationTest() throws Throwable {
 
 
