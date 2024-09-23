@@ -18,6 +18,7 @@ public class OrgTest  {
 		System.out.println(BROWSER);
 		System.out.println(URL);
 		System.out.println(USERNAME);
+		System.out.println("123");
 		System.out.println(PASSWORD);
 		
 		System.out.println("Execute createOrgtest ");
