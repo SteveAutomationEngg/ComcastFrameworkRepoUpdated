@@ -13,6 +13,7 @@
 </properties>
 
 
+
 <!-- creating Maven profile for executing different different Testng.xml file available in my framework ~ Mohit Kumar-->
 	<profiles>
 		
