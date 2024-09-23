@@ -1,67 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="9" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-19T07:37:29Z" name="Suite" finished-at="2024-09-19T07:38:10Z" duration-ms="41118">
+  <suite started-at="2024-09-23T06:27:32Z" name="Default suite" finished-at="2024-09-23T06:28:19Z" duration-ms="46637">
     <groups>
       <group name="smokeTest">
-        <method signature="ContactTest.createContactTest()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@673fdbce]" name="createContactTest" class="com.comcast.crm.contact_Testngtest.ContactTest"/>
-        <method signature="OrganizationTest.createOrganizationTest()[pri:0, instance:com.comcast.crm.org_Testngtest.OrganizationTest@1a245833]" name="createOrganizationTest" class="com.comcast.crm.org_Testngtest.OrganizationTest"/>
+        <method signature="ContactTest.createContactTest()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@5c7933ad]" name="createContactTest" class="com.comcast.crm.contact_Testngtest.ContactTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2024-09-19T07:37:29Z" name="Test" finished-at="2024-09-19T07:38:10Z" duration-ms="41118">
-      <class name="com.comcast.crm.org_Testngtest.OrganizationTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.org_Testngtest.OrganizationTest@1a245833]" started-at="2024-09-19T07:37:29Z" name="configBS" finished-at="2024-09-19T07:37:29Z" duration-ms="253" status="PASS">
+    <test started-at="2024-09-23T06:27:32Z" name="Default test" finished-at="2024-09-23T06:28:19Z" duration-ms="46637">
+      <class name="com.comcast.crm.contact_Testngtest.ContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@5c7933ad]" started-at="2024-09-23T06:27:32Z" name="configBS" finished-at="2024-09-23T06:27:32Z" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.org_Testngtest.OrganizationTest@1a245833]" started-at="2024-09-19T07:37:29Z" name="configBC" finished-at="2024-09-19T07:37:32Z" duration-ms="2232" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@5c7933ad]" started-at="2024-09-23T06:27:32Z" name="configBC" finished-at="2024-09-23T06:27:36Z" duration-ms="4312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.org_Testngtest.OrganizationTest@1a245833]" started-at="2024-09-19T07:37:32Z" name="configBM" finished-at="2024-09-19T07:37:35Z" duration-ms="3312" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@5c7933ad]" started-at="2024-09-23T06:27:36Z" name="configBM" finished-at="2024-09-23T06:27:50Z" duration-ms="13757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createOrganizationTest()[pri:0, instance:com.comcast.crm.org_Testngtest.OrganizationTest@1a245833]" started-at="2024-09-19T07:37:35Z" name="createOrganizationTest" finished-at="2024-09-19T07:37:44Z" duration-ms="8841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrganizationTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.org_Testngtest.OrganizationTest@1a245833]" started-at="2024-09-19T07:37:44Z" name="configAM" finished-at="2024-09-19T07:37:51Z" duration-ms="7634" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.org_Testngtest.OrganizationTest@1a245833]" started-at="2024-09-19T07:37:51Z" name="configAC" finished-at="2024-09-19T07:37:52Z" duration-ms="311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.org_Testngtest.OrganizationTest@1a245833]" started-at="2024-09-19T07:38:10Z" name="configAS" finished-at="2024-09-19T07:38:10Z" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
-      </class> <!-- com.comcast.crm.org_Testngtest.OrganizationTest -->
-      <class name="com.comcast.crm.contact_Testngtest.ContactTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@673fdbce]" started-at="2024-09-19T07:37:52Z" name="configBC" finished-at="2024-09-19T07:37:53Z" duration-ms="1301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@673fdbce]" started-at="2024-09-19T07:37:53Z" name="configBM" finished-at="2024-09-19T07:37:56Z" duration-ms="3118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createContactTest()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@673fdbce]" started-at="2024-09-19T07:37:56Z" name="createContactTest" finished-at="2024-09-19T07:38:04Z" duration-ms="7534" status="PASS">
+        <test-method signature="createContactTest()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@5c7933ad]" started-at="2024-09-23T06:27:50Z" name="createContactTest" finished-at="2024-09-23T06:28:11Z" duration-ms="21230" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input title="Save [Alt+S]" accesskey="S" class="crmButton small save" onclick="this.form.action.value='Save'; displaydeleted(); return formValidate() " type="submit" name="button" value="  Save  " style="width:70px"> is not clickable at point (637, 231). Other element would receive the click: <td valign="top">...</td>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62971e41bf6b8d5af074daa93b9eb2bc, clickElement {id=f.DD7FA5BADE95832C5F1A8583F2B3256F.d.60866D78FF5A20372E8D9DB25052F186.e.474}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\MOHITK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49738/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (62971e41bf6b8d5af074daa93b9eb2bc)] -> xpath: //input[@title='Save [Alt+S]']]
+Session ID: 62971e41bf6b8d5af074daa93b9eb2bc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input title="Save [Alt+S]" accesskey="S" class="crmButton small save" onclick="this.form.action.value='Save'; displaydeleted(); return formValidate() " type="submit" name="button" value="  Save  " style="width:70px"> is not clickable at point (637, 231). Other element would receive the click: <td valign="top">...</td>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62971e41bf6b8d5af074daa93b9eb2bc, clickElement {id=f.DD7FA5BADE95832C5F1A8583F2B3256F.d.60866D78FF5A20372E8D9DB25052F186.e.474}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\MOHITK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49738/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (62971e41bf6b8d5af074daa93b9eb2bc)] -> xpath: //input[@title='Save [Alt+S]']]
+Session ID: 62971e41bf6b8d5af074daa93b9eb2bc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.comcast.crm.objectrepositoryutility.CreateNewContactPage.createNewContact(CreateNewContactPage.java:91)
+at com.comcast.crm.contact_Testngtest.ContactTest.createContactTest(ContactTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@673fdbce]" started-at="2024-09-19T07:38:04Z" name="configAM" finished-at="2024-09-19T07:38:10Z" duration-ms="6544" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@5c7933ad]" started-at="2024-09-23T06:28:11Z" name="configAM" finished-at="2024-09-23T06:28:18Z" duration-ms="7084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@673fdbce]" started-at="2024-09-19T07:38:10Z" name="configAC" finished-at="2024-09-19T07:38:10Z" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@5c7933ad]" started-at="2024-09-23T06:28:18Z" name="configAC" finished-at="2024-09-23T06:28:19Z" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.contact_Testngtest.ContactTest@5c7933ad]" started-at="2024-09-23T06:28:19Z" name="configAS" finished-at="2024-09-23T06:28:19Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
       </class> <!-- com.comcast.crm.contact_Testngtest.ContactTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
